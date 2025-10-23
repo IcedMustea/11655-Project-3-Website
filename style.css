@@ -8,7 +8,7 @@
   --font-family-list: monospace;
 
   /* Colors you'll see cascade through the elements */
-  --color-bg: #99ddff; /* Used for the page body background */
+  --color-bg: #ffffff; /* Used for the page body background */
   --color-bg-alt: #33b1ff; /* Used for social icons on hover */
   --color-text-main: #004099; /* List text ann social icons on hover */
   --color-primary: #006aff; /* Headers and borders */
