@@ -46,17 +46,3 @@ nav {
   color: #ff9900;
 }
 
-
-/* Header image */
-header {
-  width: 100%;
-  text-align: center; /* center the image horizontally */
-  margin-top: 0; /* no extra space */
-}
-
-header .header-img {
-  max-width: 100%;  /* responsive scaling */
-  height: auto;     /* maintain aspect ratio */
-  display: block;
-}
-
