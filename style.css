@@ -46,3 +46,13 @@ nav {
   color: #ff9900;
 }
 
+header {
+  width: 100%;
+  text-align: center; /* center the image */
+}
+
+.header-img {
+  width: 100%;    /* makes image stretch to fill container width */
+  height: auto;   /* keeps aspect ratio so it doesn't get distorted */
+  display: block; /* removes tiny inline spacing */
+}
