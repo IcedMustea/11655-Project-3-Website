@@ -1,47 +1,62 @@
+/* Reset default styles */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Kumbh Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-.navbar {
-  background: #131313;
-  height: 80px;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  font-size: 1.2 rem;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-}
-
-
-.navbar__container {
+/* Navigation bar */
+nav {
   display: flex;
   justify-content: space-between;
-  height: 80px;
-  z-index: 1;
-  width: 100%;
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 50px;
+  align-items: center;
+  background-color: #EAE3C9;
+  padding: 10px 20px;
+  position: relative;
 }
 
-#navbar__logo {
-  background-color:aquamarine;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-  background-size: 100%;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+.nav-left {
   display: flex;
   align-items: center;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
 }
 
-.fa-gem {
-  margin-right: 0.5rem;
+.nav-left img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
+
+.nav-left a, .nav-right a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right a {
+  margin-left: 20px;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+  color: #ff9900;
+}
+
+
+/* Header image */
+header {
+  width: 100%;
+  text-align: center; /* center the image horizontally */
+  margin-top: 0; /* no extra space */
+}
+
+header .header-img {
+  max-width: 100%;  /* responsive scaling */
+  height: auto;     /* maintain aspect ratio */
+  display: block;
+}
+
