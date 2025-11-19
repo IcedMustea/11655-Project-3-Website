@@ -48,11 +48,11 @@ nav {
 
 header {
   width: 100%;
-  text-align: center; /* center the image */
+  text-align: center; 
 }
 
 .header-img {
-  width: 100%;    /* makes image stretch to fill container width */
-  height: auto;   /* keeps aspect ratio so it doesn't get distorted */
-  display: block; /* removes tiny inline spacing */
+  width: 100%;    
+  height: auto;   
+  display: block; 
 }
