@@ -56,3 +56,17 @@ header {
   height: auto;   
   display: block; 
 }
+
+.nav-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
