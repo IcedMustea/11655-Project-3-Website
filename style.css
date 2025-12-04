@@ -6,6 +6,13 @@
   font-family: Arial, sans-serif;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #F4F1EE; /* light beige background */
+}
+
 /* Navigation bar */
 nav {
   display: flex;
@@ -96,7 +103,7 @@ main {
   flex: 1; /* pushes footer to the bottom */
 }
 
-/* Letter Box */
+/* Newsletter Box */
 .intro-newsletter {
   display: flex;
   align-items: flex-start;
@@ -123,18 +130,12 @@ main {
   flex: 1;
   font-size: 18px;
   line-height: 1.6;
-  color: #3B3B3B;
-}
-
-.newsletter-text {
-  flex: 1;
-  font-size: 18px;
-  line-height: 1.6;
   color: #3b3b3b;
 
-  display: flex;           /* makes it a flex container */
-  flex-direction: column;  /* stacks text naturally */
-  justify-content: center; /* vertical centering within the letter box */
-  align-items: center;     /* horizontal centering */
-  text-align: center;      /* centers multiple lines of text */
-}
+  display: flex;           
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;      
+}  
+
