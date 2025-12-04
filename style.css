@@ -71,6 +71,7 @@ header {
   font-weight: bold;
 }
 
+/* footer */
 
 footer {
   background-color: #EAE3C9;  /* same color as nav */
@@ -79,4 +80,18 @@ footer {
   padding: 20px 0;
   margin-top: 40px;
   font-weight: bold;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* pushes footer to the bottom */
 }
