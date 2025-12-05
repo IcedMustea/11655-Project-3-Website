@@ -142,3 +142,46 @@ main {
   text-align: center;      
 }  
 
+/* -- Page 1 Tea Pannel -- */
+
+.slideshow-container {
+  width: 80%;
+  max-width: 700px;
+  margin: 40px auto;
+  position: relative;
+  min-height: 60vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+}
+
+.tea-img {
+  width: 100%;
+  max-height: 50vh;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+}
+
+.tea-info {
+  background: #FFFDF5;
+  border: 2px solid #E5D9B6;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.fade {
+  animation: fadeEffect 1s ease-in-out;
+}
+
+@keyframes fadeEffect {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
