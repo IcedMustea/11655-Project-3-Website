@@ -148,3 +148,29 @@ Check out more tips on using the <a href="https://github.com/fastly/compute-js-s
 Relection
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ Refrence List
+
+
+This helped me in creating the slide show
+https://www.w3schools.com/howto/howto_js_slideshow.asp
