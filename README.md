@@ -147,29 +147,53 @@ Check out more tips on using the <a href="https://github.com/fastly/compute-js-s
 
 Relection
 
+ This project overall was extremely interesting and benefited me in many ways, giving me more information about coding and design. One thing I learnt the most about in this assignment was CSS as this was my first time using it and it was interesting adjusting and using it to make certain aspects of my website, such as my first challenge making an interactive logo. In which I wanted an image to be a button that would lead to my main page this also had other challenges that came with it as I had to make a Nav bar in my CSS and section things off so I could control each aspect of it, like centring and making one left right or in the centre. Now the next difficulty I faced in this assignment was the slideshow in which was the first time I also used JavaScript. This was tricky as it was confusing going back and forth between JavaScript and CSS and html trying to figure out what to do but overall wasn’t the worst I opted to do a slide show instead of a scrollbar as I have previously had difficulties with using a scroll bar in html. As well as after hearing other people demonstrate their work, I saw the slide show and thought it was a really good idea and would fit the concept and goal of my website. Other small technical difficulties and other things I opted for was making the footer header and Navigation Bar Move with the website, which was extremely rewarding while not being that difficult as it really made the website feel much more well-made and cleaner to use. It felt like a huge changed that completely changed the feel of the website. Desinging the Website with a design in mind was a much more, different expreince to my last and really showed me certin differences in how making it felt. As the first time I was somewhat just writing code and putting unesseery stuff in to test out all the features, while this was much more directed to make, as I knew what things needed to be in the finished product.
 
 
 
+----- Low-Fidelity Page 1/Home Prototype
+
+![alt text](public/lowfidel.png/lowfidel.png-1.png)
 
 
 
+----- Low-Fidelity Page 2 Prototype.
+
+![alt text](public/lowfidel.png/lowfidel.png-2.png)
 
 
+---- 1st Page/home/index of Website
+
+![alt text](<public/Screenshot 2025-12-07 at 8.09.22 pm.png>)
 
 
+----- 2nd Page of Website
 
-
-
-
-
-
-
-
-
-
+![alt text](<public/Screenshot 2025-12-07 at 8.09.37 pm.png>)
 
  
- Refrence List
+Comparsion 
+
+Comparison
+Overall, a lot of the aspects I wanted for my website, where kept but they were rearranged and changed compared to the original. Such as Interactive Logo Home page on top left with name centre and Pages on the right. Where all accomplished. With my Header not being interactive. My body on page 1 accomplished what I wanted with a image to the right with text next to. My Footer has been completed altered with me using it as a reference to whole made it (me). Now the 2nd page had the most changes as what I wanted was not accomplishable and extremely difficult to do, so I opted for a much simpler way of presentation, by using a slide show to give information on different types of teas.
+
+
+
+
+------ Page 1/index/home HTML5 Checker
+
+![alt text](<public/Screenshot 2025-12-05 at 7.26.28 pm.png>)
+
+
+------ Page 2/Page 1.html HTML5 Checker
+
+![alt text](<public/Screenshot 2025-12-05 at 7.25.55 pm.png>)
+
+
+
+
+
+Refrence List
 
 
 This helped me in creating the slide show
